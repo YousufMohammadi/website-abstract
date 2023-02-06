@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.abstract-container{
+    width: 100%;
+    height: 100vh;
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.abstract{
+    width: 80%;
+    height: 80%;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px;
+}
+.navbar{
+    width: 100%;
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #9063FF;
+    transition: all 0.5s;
+}
+.logo:hover{
+    box-shadow: -5px -5px 10px #cdcde1,
+    5px 5px 10px #cdcde1;
+}
+.navbar-links{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    grid-area: 10px;
+}
+.link{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    text-transform: capitalize;
+    padding: 20px 10px;
+    text-align: center;
+    transition: all 0.5s;
+}
+.link:hover{
+    color: #888;
+}
+.abstract-content{
+    width: 100%;
+    height: 88%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.content-left,
+.content-right{
+    width: 50%;
+    height: 100%;
+}
+.content-left{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 0 25px;
+}
+.header{
+    font-size: 45px;
+    font-weight: 600;
+    color: #9063FF;
+}
+.description{
+    width: 80%;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 30px;
+}
+.subscribe{
+    width: 180px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: #fe4b4b;
+    color: #fff;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+.subscribe:hover{
+    background-color: #b83939;
+}
